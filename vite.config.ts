@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-	base: '/SIB-Financial-Website/',
+	base: '/',
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {

@@ -347,7 +347,7 @@ const translations = {
 };
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('fa');
 
   const t = (key: string): string => {
     const keys = key.split('.');
